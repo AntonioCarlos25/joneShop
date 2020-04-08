@@ -5,4 +5,4 @@
 ![joneShop](https://github.com/JoneBulande/joneShop/blob/master/img/a.jpg)
 # E
 # Site na versão Mobile: :iphone:
-![joneShop](https://github.com/JoneBulande/joneShop/blob/master/img/b.jpg)
+![joneShop](https://github.com/JoneBulande/joneShop/blob/master/img/b.png)
