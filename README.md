@@ -6,4 +6,4 @@
 ##
 # Site na versão Mobile: :iphone:
 #
-![joneShop](https://github.com/JoneBulande/joneShop/blob/flexbox/img/b1.png)
+![joneShop](https://github.com/JoneBulande/joneShop/blob/flexbox/img/b2.png)
