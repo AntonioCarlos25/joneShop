@@ -1,9 +1,6 @@
 # joneShop
 #### Site responsivo simples em HTML5 básico e CSS3 : flexbox.
-#
-# Site na versão Desktop: :computer:
+# :computer: Site na versão Desktop 
 ![joneShop](https://github.com/JoneBulande/joneShop/blob/flexbox/img/c1.png)
-##
-# Site na versão Mobile: :iphone:
-#
+# :iphone: Site na versão Mobile
 ![joneShop](https://github.com/JoneBulande/joneShop/blob/flexbox/img/c2.png)
