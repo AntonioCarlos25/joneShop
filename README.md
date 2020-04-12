@@ -1,8 +1,7 @@
 # joneShop
 ## Site responsivo simples em HTML e CSS básico.
 
-# Site na versão Desktop: :computer:
+# :computer: Site na versão Desktop 
 ![joneShop](https://github.com/JoneBulande/joneShop/blob/master/img/a.jpg)
-# E
-# Site na versão Mobile: :iphone:
+# :iphone: Site na versão Mobile:
 ![joneShop](https://github.com/JoneBulande/joneShop/blob/master/img/b.png)
