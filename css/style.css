@@ -35,6 +35,7 @@ p{
 	height: 48px;
 	font-size: 0;
 	background: url(../img/logo.png);
+	cursor:pointer;
 }
 /*form*/
 .cabecalho form{
@@ -48,6 +49,10 @@ p{
 	border-radius: 5px 0 0 5px;
 
 }
+.cabecalho input:hover{
+	padding: 14.5px 10px;
+	border-bottom: 1px solid #000;
+}
 .cabecalho button{
 	width: 15%;
 	color: #fff;
@@ -56,6 +61,10 @@ p{
 	padding: 15px 10px;
 	background-color: #119684;
 	border-radius: 0 5px 5px 0;
+}
+.cabecalho button:hover{
+	box-shadow:0px 0px 3px #000;
+	color:#000;
 }
 /*NAV - menu*/
 .menu{
@@ -69,9 +78,12 @@ p{
 }
 .menu li a{
 	color: #9d9d9d;
-	margin-right: 25px;
+	margin-right:25px;
+	padding:0 5px;
 }
 .menu li a:hover{
+	padding-bottom:17px;
+	border-bottom:5px solid #13c7ae;
 	color: #fff;
 }
 /*DIV social-icons*/
@@ -106,6 +118,12 @@ p{
 .sobre h2{
 	margin-bottom: 15px;
 } 
+.sobre .border{
+	width:100px;
+	height:3px;
+	margin-left:2px;
+	background-color:#13c7ae;
+}
 .principal img{
 	width: 50%;
 	float: left;
@@ -150,7 +168,15 @@ p{
 	color: #fff;
 	font-size: 1.8em;
 }
+.newsletter h3 .border{
+	width:120px;
+	height:3px;
+	margin-left:1px;
+	margin-bottom:5px;
+	background-color:#13c7ae;
+}
 .newsletter p{
+	margin-top:9px;
 	color: #fff;
 	font-size: 1.2em;
 
@@ -166,17 +192,26 @@ p{
 	float: left;
 	margin-right: 1%;
 	padding: 15px 10px;
-	border-radius: 5px; 
+	border-radius: 10px; 
 	border: 1px solid #fff;
 	background-color: initial;
+}
+.newsletter form input:hover{
+	border-bottom: 1px solid #13c7ae;
+}
+.newsletter input:focus{
+	border: 1px solid #13c7ae;
 }
 .newsletter button{
 	width: 18%;
 	float: right;
 	cursor: pointer;
 	padding: 15px 10px;
-	border-radius: 5px; 
+	border-radius: 10px; 
 	border: 1px solid #fff;
+}
+.newsletter button:hover{
+	box-shadow:0px 0px 5px #13c7ae;
 }
 /*FOOTER - rodape*/
 .rodape{
@@ -192,6 +227,19 @@ p{
 	text-align: center;
 }
 /*mobile version - responsive*/
+@media screen and (max-width: 900px ){
+	.sobre{
+		padding: 0;
+		width: 100%;
+		float: left;
+		margin-bottom: 10px;
+	}
+	.onde-estamos{
+		width: 100%;
+		margin-top: 10px;
+	}
+}
+
 @media screen and (max-width: 700px ){
 	.cabecalho{
 		display: flex;
@@ -217,13 +265,20 @@ p{
 		text-align: center;
 		margin: 15px 10px;
 	}
+	.menu li a:hover{
+		padding:5px;
+		background-color:rgba(19, 199, 174, .8);
+		border:none;
+	}
 	.social-icons{
 		width: 100%;
 		float: left;
-		margin-top: 10px;
+		margin-top: 27px;
+		margin-left:5px;
 		text-align: center;
 	}
 	.social-icons a{
+		margin-right:20px;
 		color: #9d9d9d;
 	}
 	.principal{
@@ -233,20 +288,10 @@ p{
 		flex-direction: column;
 		justify-content: center;		
 	}
-	.sobre{
-		padding: 0;
-		width: 100%;
-		float: left;
-		margin-bottom: 10px;
-	}
 	.sobre img{
 		width: 100%;
 		margin: 0 0 15px 0;
 		border-radius: 5px 5px 0 0;
-	}
-	.onde-estamos{
-		width: 100%;
-		margin-top: 10px;
 	}
 	.newsletter h3{
 		font-size: 1.5em;
