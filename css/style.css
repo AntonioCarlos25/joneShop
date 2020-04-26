@@ -95,13 +95,16 @@ p{
 	margin-left: 12px;
 }
 .btn-face:hover{
-	color: blue;
+	color:#1f4fc9;
 }
 .btn-insta:hover{
 	color: red;
+	background: -webkit-linear-gradient(45deg, #f7ce02, #f96302, #f71102, #d32155, #b43890, #904eca, #8944bb, #7832ae);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 .btn-whats:hover{
-	color: green;
+	color: #0cba27;
 }
 
 /*MAIN - principal*/
